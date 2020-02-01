@@ -31,6 +31,3 @@ class TestSummarizationLoader(unittest.TestCase):
         data = sum_loader.process(paths=paths, vocab_size=vocab_size, vocab_path=vocab_path, sent_max_len=sent_max_len, doc_max_timesteps=doc_max_timesteps, tag=True)
         print(data.datasets, data.vocabs)
 
-
-
-

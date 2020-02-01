@@ -53,8 +53,8 @@
         from fastNLP import DataSet
         from fastNLP import Instance
         instances = []
-        winstances.append(Instance(sentence="This is the first instance",
-                            ords=['this', 'is', 'the', 'first', 'instance', '.'],
+        instances.append(Instance(sentence="This is the first instance",
+                            words=['this', 'is', 'the', 'first', 'instance', '.'],
                             seq_len=6))
         instances.append(Instance(sentence="Second instance .",
                             words=['Second', 'instance', '.'],
